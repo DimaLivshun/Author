@@ -13,6 +13,9 @@ body {
   text-decoration: none;
 }
 
+.header .menu .menu_button:focus {
+  outline: none;
+}
 .header .menu ul {
   margin: 0;
   padding: 0;
@@ -37,17 +40,17 @@ body {
   text-decoration: none;
 }
 
-.slider-block .title p {
+.slider-block .title {
   font-size: 63px;
   color: #fff;
   margin: 0;
 }
-.slider-block .info p {
+.slider-block .info {
   font-size: 23px;
   color: #fff;
-  margin: 0;
+  margin-bottom: 50px;
 }
-.slider-block .button-block a {
+.slider-block .button-block {
   font-size: 26px;
   color: #fff;
   font-weight: 400;
@@ -63,6 +66,7 @@ body {
 
 .team .wrap {
   text-align: center;
+  margin-bottom: 20px;
 }
 .team .block-title {
   margin-top: 100px;
@@ -81,6 +85,25 @@ body {
   border-radius: 50%;
   margin-bottom: 70px;
   display: inline-block;
+}
+.team .photo:hover:after {
+  content: "+";
+  font-size: 70px;
+  position: relative;
+  top: 20%;
+  right: 14%;
+  position: relative;
+  color: #de0000;
+}
+.team .photo:before {
+  content: "+";
+  font-size: 70px;
+  position: relative;
+  top: 20%;
+  right: 1%;
+  position: relative;
+  color: #de0000;
+  opacity: 0;
 }
 .team p {
   text-align: center;
