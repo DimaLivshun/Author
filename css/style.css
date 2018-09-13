@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 0;
 }
+body .row {
+  margin: 0;
+}
 
 .header .logo a {
   font-family: "Lobster", cursive;
@@ -40,6 +43,9 @@ body {
   text-decoration: none;
 }
 
+.slider-block .col-12 {
+  padding: 0;
+}
 .slider-block .title {
   font-size: 63px;
   color: #fff;
@@ -91,7 +97,7 @@ body {
   font-size: 70px;
   position: relative;
   top: 20%;
-  right: 14%;
+  right: 13%;
   position: relative;
   color: #de0000;
 }
@@ -121,6 +127,50 @@ body {
   color: #5f626c;
   font-size: 15px;
   white-space: pre-line;
+}
+
+.rate .basic,
+.rate .pro,
+.rate .premium {
+  text-align: center;
+}
+.rate .basic ul,
+.rate .pro ul,
+.rate .premium ul {
+  padding: 0;
+}
+.rate .basic ul li,
+.rate .pro ul li,
+.rate .premium ul li {
+  list-style-type: none;
+  padding: 19px 0 16px 0;
+  color: #8c9299;
+  border-top: 1px solid #ecf0f1;
+  border-left: 1px solid #ecf0f1;
+  border-right: 1px solid #ecf0f1;
+  font-size: 14px;
+}
+.rate .basic ul li:last-child,
+.rate .pro ul li:last-child,
+.rate .premium ul li:last-child {
+  border-bottom: 1px solid #ecf0f1;
+}
+.rate .basic .head,
+.rate .pro .head,
+.rate .premium .head {
+  font-size: 26px;
+  padding: 29px 0;
+  background: #485460;
+  color: #fff;
+  margin: 0;
+}
+.rate .basic .price,
+.rate .pro .price,
+.rate .premium .price {
+  background: #f8f9fb;
+  color: #485460;
+  margin: 0;
+  padding: 29px 0 25px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

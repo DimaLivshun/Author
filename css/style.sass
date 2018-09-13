@@ -3,6 +3,8 @@ $font: 'Lobster', cursive
 body
 	margin: 0
 	padding: 0
+	.row
+		margin:0
 .header
 	.logo 
 		a
@@ -37,6 +39,8 @@ body
 						border-bottom:2px solid #49cbcd
 						text-decoration: none
 .slider-block
+	.col-12
+		padding:0
 	.title
 			font-size: 63px
 			color: #fff
@@ -80,7 +84,7 @@ body
 			font-size:70px
 			position: relative
 			top:20%
-			right:14%
+			right:13%
 			position: relative
 			color: #de0000
 		&:before
@@ -105,3 +109,31 @@ body
 		color: #5f626c
 		font-size: 15px
 		white-space: pre-line
+.rate
+	.basic,
+	.pro,
+	.premium
+		text-align: center
+		ul
+			padding:0
+			li
+				list-style-type: none
+				padding:19px 0 16px 0
+				color:#8c9299
+				border-top:1px solid #ecf0f1
+				border-left:1px solid #ecf0f1
+				border-right:1px solid #ecf0f1
+				font-size: 14px
+			li:last-child
+				border-bottom:1px solid #ecf0f1
+		.head
+			font-size:26px
+			padding:29px 0
+			background:#485460
+			color:#fff
+			margin:0
+		.price
+			background:#f8f9fb
+			color:#485460
+			margin:0
+			padding:29px 0 25px 0
